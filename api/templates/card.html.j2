@@ -27,7 +27,7 @@ display: flex;
 flex-direction: column;
 }
 .song{
-    color: cyan;
+    color: #FF0000;
     font-size: 27px;
     font-family: 'josefin sans';
     width: 280px;
@@ -37,7 +37,7 @@ flex-direction: column;
     padding-top:2px;
 }
 .artist{
-    color: magenta;
+    color: yellow;
     font: caption;
     font-size: 15px;
 }
@@ -69,7 +69,7 @@ flex-direction: column;
 <div class="main">
 <img class="pic" src="data:image/jpg;base64,{{imgstr}}" width="120px"></img>
 <div class="info" xmlns="http://www.w3.org/1999/xhtml">
-<div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%;font: caption;padding-bottom: 3px;font-size: smaller;color: pink;mix-blend-mode: overlay; line-height:17px;">{{status}}</div>
+<div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%;font: caption;padding-bottom: 3px;font-size: smaller;color: #52D273;mix-blend-mode: overlay; line-height:17px;">{{status}}</div>
 <a xmlns="http://www.w3.org/1999/xhtml" class="song" >{{songname}}</a><a class="artist" xmlns="http://www.w3.org/1999/xhtml">by {{artist}} </a>
 <div xmlns="http://www.w3.org/1999/xhtml" style="   display: flex;    height: 26px;   flex-direction: row;    align-items: flex-end;">
     {{bars|safe}}
